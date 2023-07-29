@@ -1,8 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = 4000;
-
 
 // users endpoint
 app.post('/api/users/signin', (req,res)=>{
@@ -41,6 +39,6 @@ app.post('/api/users/signin', (req,res)=>{
 
 })
 
-.listen(port ,()=>{
-  console.log(`server started on port ${port}`);
+.listen(process.env.APP_PORT ,()=>{
+  console.log(`server started on port ${process.env.APP_PORT}`);
 })

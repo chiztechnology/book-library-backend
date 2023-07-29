@@ -1,12 +1,12 @@
-const {createPool} = require('mysql');
+const { createPool } = require('mysql');
 
 const pool = createPool({
-  port: 3306,
-  host:'localhost',
-  user:'root',
-  password:'megamind',
-  database:'book-library',
-  connectionLimit:10
+  port: process.env.DB_PORT,
+  host: process.env.host,
+  user: process.env.user,
+  password: process.env.password,
+  database: process.env.database,
+  connectionLimit: 10
 });
 
 module.exports = pool;
