@@ -1,0 +1,25 @@
+{
+  "name": "book-library-backend",
+  "version": "1.0.0",
+  "description": "This project has been set up as the backend part of the Book library web app (API) for regsitering user and authenticate them ; securing routes for CRUD Operations  etc...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiztechnology/book-library-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiztechnology/book-library-backend/issues"
+  },
+  "homepage": "https://github.com/chiztechnology/book-library-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
