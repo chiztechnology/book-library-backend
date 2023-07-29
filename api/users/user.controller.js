@@ -128,7 +128,7 @@ module.exports = {
       if (result) {
         results.password = undefined;
         const token = sign({ result: results }, "qwe1234", {
-          expiresIn: "1h"
+          expiresIn: "30d"
         })
         return res.json({
           success: 1,
