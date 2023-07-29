@@ -30,6 +30,8 @@
 
 the app uses authentication for advanced features.
 
+### This is the [Link to the Frontend repository](https://github.com/chiztechnology/book-library-frontend) of this project
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
