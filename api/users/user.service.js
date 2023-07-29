@@ -62,7 +62,7 @@ module.exports = {
           return callback(error);
         }
 
-        return callback(results)
+        return callback(null, results)
       }
     )
   },
